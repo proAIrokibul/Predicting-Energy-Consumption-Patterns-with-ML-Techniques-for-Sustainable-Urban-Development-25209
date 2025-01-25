@@ -23,39 +23,14 @@ This project focuses on leveraging machine learning techniques to analyze and pr
    - **Accuracy**: 0.34
    - **Precision**, **recall**, and **F1-score** varied across classes, with the highest recall for class `2.0` (65%).
 
-      **Classification Report:**
-                 precision    recall  f1-score   support
-           0.0       0.29      0.18      0.22        61
-           1.0       0.20      0.08      0.12        61
-           2.0       0.37      0.65      0.47        78
-         - **Macro avg**: 0.29 precision, 0.31 recall, 0.27 f1-score
-         - **Weighted avg**: 0.29 precision, 0.34 recall, 0.29 f1-score
 
 #### **Random Forest Classifier**:
    - **Accuracy**: 0.345
    - **Precision**, **recall**, and **F1-score** slightly improved compared to Logistic Regression.
 
-**Classification Report:**
-           precision    recall  f1-score   support
-     0.0       0.38      0.21      0.27        61
-     1.0       0.30      0.30      0.30        61
-     2.0       0.36      0.49      0.41        78
-
-   - **Macro avg**: 0.35 precision, 0.33 recall, 0.33 f1-score
-   - **Weighted avg**: 0.35 precision, 0.34 recall, 0.34 f1-score
-
 #### **XGBoost Classifier**:
    - **Accuracy**: 0.325
    - While precision and recall values were slightly higher than Logistic Regression, the overall performance was similar.
-
-**Classification Report:**
-           precision    recall  f1-score   support
-     0.0       0.28      0.28      0.28        61
-     1.0       0.30      0.28      0.29        61
-     2.0       0.37      0.40      0.38        78
-
-   - **Macro avg**: 0.32 precision, 0.32 recall, 0.32 f1-score
-   - **Weighted avg**: 0.32 precision, 0.33 recall, 0.32 f1-score
 
 ### 5. **Model Comparison:**
    - **Accuracy Scores**:
@@ -64,8 +39,6 @@ This project focuses on leveraging machine learning techniques to analyze and pr
      - XGBoost: 0.325
 
    - **Conclusion**: Random Forest outperforms Logistic Regression and XGBoost slightly in terms of accuracy and other evaluation metrics. However, all models exhibit relatively low accuracy, suggesting the need for further tuning, feature engineering, or alternative models to improve predictions.
-
----
 
 ## **Business Impacts**
 
