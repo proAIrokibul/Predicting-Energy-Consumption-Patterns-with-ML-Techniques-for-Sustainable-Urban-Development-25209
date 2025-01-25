@@ -23,13 +23,13 @@ This project focuses on leveraging machine learning techniques to analyze and pr
    - **Accuracy**: 0.34
    - **Precision**, **recall**, and **F1-score** varied across classes, with the highest recall for class `2.0` (65%).
 
-**Classification Report:**
-           precision    recall  f1-score   support
-     0.0       0.29      0.18      0.22        61
-     1.0       0.20      0.08      0.12        61
-     2.0       0.37      0.65      0.47        78
-   - **Macro avg**: 0.29 precision, 0.31 recall, 0.27 f1-score
-   - **Weighted avg**: 0.29 precision, 0.34 recall, 0.29 f1-score
+      **Classification Report:**
+                 precision    recall  f1-score   support
+           0.0       0.29      0.18      0.22        61
+           1.0       0.20      0.08      0.12        61
+           2.0       0.37      0.65      0.47        78
+         - **Macro avg**: 0.29 precision, 0.31 recall, 0.27 f1-score
+         - **Weighted avg**: 0.29 precision, 0.34 recall, 0.29 f1-score
 
 #### **Random Forest Classifier**:
    - **Accuracy**: 0.345
